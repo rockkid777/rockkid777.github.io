@@ -1,0 +1,33 @@
+title: Hello there, I'm Ádám, Révész
+description: > # this means to ignore newlines until "baseurl:"
+  Ádám Révész's website. Projects, theaching stuff, random thoughts, etc.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://rockkid777.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author Settings
+author: "Ádám Révész" # add your name
+author-img: adam-revesz.jpg # add your photo
+about-author: >
+  I am an iOS app developer with some backend experiences and projects.
+  I'm teaching bachelors @Eötvös Loránd University, Budapest, Hungary.
+  I'm also pretty obsessed with functional programming and DevOps.
+twitter: rockkid777
+facebook: adam.revesz1
+github: rockkid777
+linkedin: ádám-révész-ab2867a1
+email: reveszadam@gmail.com
+
+# Disqus
+# discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+# analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
